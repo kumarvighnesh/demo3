@@ -11,7 +11,7 @@ import android.widget.EditText;
 
 
 public class MainActivity extends Activity {
- Button b1;
+ Button btn1;
  Button b2;
  Button b3;
  Button b4;
@@ -25,8 +25,8 @@ public class MainActivity extends Activity {
 		t1=(EditText)findViewById(R.id.editText1);
 		t2=(EditText)findViewById(R.id.editText2);
 		t3=(EditText)findViewById(R.id.editText3);
-		b1=(Button)findViewById(R.id.button1);
-		b1.setOnClickListener(new OnClickListener() {
+		btn1=(Button)findViewById(R.id.button1);
+		btn1.setOnClickListener(new OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
